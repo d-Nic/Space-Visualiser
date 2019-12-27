@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<title>Space visualiser</title>
+	<head>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+
+	<body id="Body">
+	<div>
+ 	 <input type="range" min="5" max="80" value="30" class="slider" id="dataRange" onchange="updateSpeed(this.value)">
+	</div>
+	<div>
+ 	 <input type="range" min="10" max="30" value="20" class="slider" id="dataRange" onchange="updateFov(this.value)">
+	</div>
+	</body>
+	<script src="control.js"></script>
+</html>
+
+
